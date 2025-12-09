@@ -1,0 +1,10 @@
+10-Fold Cross-Validation Results
+===============================
+Parameters:
+k: 529
+C: 1.0
+gamma: 0.001
+
+Results:
+Mean ROC AUC: 0.7931
+Standard Deviation: 0.0210
