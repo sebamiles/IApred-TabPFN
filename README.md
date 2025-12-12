@@ -27,6 +27,8 @@
 | VaxiJen 3.0 | 0.658 | 0.691 | 0.320 | 0.604 | 0.715 | 0.643 | 0.687 |
 | VaxiJen 2.0 | 0.603 | 0.681 | 0.225 | 0.838 | 0.360 | 0.683 | 0.576 |
 
+<img width="2113" height="2113" alt="roc_auc_comparison_unified" src="https://github.com/user-attachments/assets/b27378a9-4e00-49a3-a558-07ebee0f8cb0" />
+
 ## 🚀 Quick Start
 
 ### Installation
