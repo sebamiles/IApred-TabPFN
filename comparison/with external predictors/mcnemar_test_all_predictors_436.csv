@@ -1,0 +1,22 @@
+Predictor_1,Predictor_2,Sample_Size,Statistic,p_value,Significance,Both_Correct,Pred1_Correct_Only,Pred2_Correct_Only,Both_Wrong
+SVM_score,TabPFN-all_score,436,16.0,0.0026672623828598026,Significant,286,16,39,95
+SVM_score,TabPFN-529_score,436,19.0,0.0031560602510210594,Significant,283,19,43,91
+SVM_score,TabPFN-100_score,436,26.0,0.16864291143970336,Not significant,276,26,38,96
+SVM_score,ANTIGENpro,431,50.0,0.19149593512028165,Not significant,234,65,50,82
+SVM_score,Vaxijen 3.0,436,64.0,0.24160419524510107,Not significant,223,79,64,70
+SVM_score,VaxiJen 2.0,436,58.0,0.0021681266074654493,Significant,205,97,58,76
+TabPFN-all_score,TabPFN-529_score,436,11.0,1.0,Not significant,314,11,12,99
+TabPFN-all_score,TabPFN-100_score,436,16.0,0.12628947438543037,Not significant,298,27,16,95
+TabPFN-all_score,ANTIGENpro,431,40.0,0.00044531067691715805,Significant,244,79,40,68
+TabPFN-all_score,Vaxijen 3.0,436,48.0,0.0013037586710986505,Significant,239,86,48,63
+TabPFN-all_score,VaxiJen 2.0,436,49.0,1.05255808262707e-06,Significant,214,111,49,62
+TabPFN-529_score,TabPFN-100_score,436,13.0,0.07295138851623051,Not significant,301,25,13,97
+TabPFN-529_score,ANTIGENpro,431,42.0,0.0005560923592546729,Significant,242,81,42,66
+TabPFN-529_score,Vaxijen 3.0,436,49.0,0.001091023616235747,Significant,238,88,49,61
+TabPFN-529_score,VaxiJen 2.0,436,53.0,1.4138510751828575e-06,Significant,210,116,53,57
+TabPFN-100_score,ANTIGENpro,431,49.0,0.01581820400805208,Significant,235,77,49,70
+TabPFN-100_score,Vaxijen 3.0,436,52.0,0.022743268128245023,Significant,235,79,52,70
+TabPFN-100_score,VaxiJen 2.0,436,58.0,9.739104814301322e-05,Significant,205,109,58,64
+ANTIGENpro,Vaxijen 3.0,431,73.0,1.0,Not significant,211,73,73,74
+ANTIGENpro,VaxiJen 2.0,431,56.0,0.06925958718203146,Not significant,206,78,56,91
+Vaxijen 3.0,VaxiJen 2.0,436,69.0,0.07042523337561711,Not significant,194,93,69,80
