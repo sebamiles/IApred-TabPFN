@@ -6,6 +6,8 @@
 
 **IApred** is an intrinsic antigenicity predictor. The original implementation uses traditional machine learning approaches (SVM), while in this implementation we use modern foundation models (TabPFN). This project demonstrates the transition from complex hyperparameter optimization to efficient zero-shot learning for protein antigenicity prediction across diverse pathogens.
 
+The original implementation of IApred can be access via https://github.com/sebamiles/IAPred, and a web-server for IApred-SVM mode in https://smilesinformatics.com/en/predictors/iapred
+
 ## 📊 Key Features
 
 - **Dual ML Approaches**: Original IApred-SVM (with extensive optimization) vs. modern TabPFN foundation models
