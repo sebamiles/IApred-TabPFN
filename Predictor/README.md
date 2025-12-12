@@ -41,13 +41,6 @@ Note: Classification threshold is set to 0.5 by default (can be changed via comm
   >my_protein
   MKTAYIAKQRQISFVKSHFSRQLEERLGLIEVQAPILSRVGDGTQDNLSGAEKAVQVKVKALPDAQFEVVHSLAKWKRQTLGQHDFSAGEGLYTHMKALRPDEDRLSPLHSVYVDQWDWERVMGDGERQFSTLKSTVEAIWYIKKETG
   ```
-- Multi-line sequence (as typically formatted in FASTA files):
-  ```
-  MKTAYIAKQRQISFVKSHFSRQLEERLGLIEVQAPILSRVG
-  DGTQDNLSGAEKAVQVKVKALPDAQFEVVHSLAKWKRQTLG
-  QHDFSAGEGLYTHMKALRPDEDRLSPLHSVYVDQWDWERVM
-  GDGERQFSTLKSTVEAIWYIKKETG
-  ```
 
 ### Command-Line Mode (For Advanced Users)
 
@@ -138,8 +131,8 @@ Based on external validation (n=436 sequences):
 
 | Model | ROC-AUC | MCC | Sensitivity | Specificity |
 |-------|---------|-----|-------------|-------------|
-| **TabPFN (All Features)** | **0.816** | **0.518** | **0.766** | **0.752** |
-| SVM (Optimized) | 0.782 | 0.432 | 0.703 | 0.729 |
+| **TabPFN (All Features)** | **0.807** | **0.491** | **0.775** | **0.715** |
+| SVM (Optimized) | 0.775 | 0.387 | 0.766 | 0.617 |
 
 **Recommendation**: 
 - Use TabPFN for best performance
