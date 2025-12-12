@@ -126,7 +126,7 @@ IApred-PFN/
 - **Pathogens covered**: *Aspergillus fumigatus*, *Actinobacillus pleuropneumoniae*, *Ascaris suum*, *Bacillus anthracis*, *Bordetella pertussis*, *Candida albicans*, *Cryptococcus neoformans*, *Coccidioides posadasii*, *Fasciola hepatica*, *Histoplasma capsulatum*, *Mycobacterium bovis*, viruses, *Paracoccidioides brasiliensis*, *Plasmodium vivax*, *Staphylococcus aureus*, *Schistosoma mansoni*, *Toxoplasma gondii*, and more
 
 ### Feature Engineering
-- **838 physicochemical descriptors**: Amino acid composition, physicochemical properties, structural features
+- **Physicochemical descriptors**: Amino acid composition, physicochemical properties, structural features
 - **Advanced features**: Sequence motifs, evolutionary conservation, secondary structure predictions
 - **Feature selection**: Variance threshold, correlation-based, and model-based selection
 
@@ -166,12 +166,6 @@ IApred-PFN/
 3. **Comparison**: Run `compare_models.py` to generate comprehensive performance reports
 4. **Validation**: Always validate on independent datasets before deployment
 
-### For Developers
-- Models are saved in scikit-learn/TabPFN format for easy integration
-- Feature extraction functions are modular and reusable
-- All scripts include comprehensive logging and error handling
-- GPU acceleration available for TabPFN inference
-
 ## 🔧 System Requirements
 
 - **Python**: 3.8 or higher
@@ -179,38 +173,6 @@ IApred-PFN/
 - **GPU**: CUDA-compatible GPU recommended for TabPFN training
 - **Storage**: 5GB for models and datasets
 - **OS**: Linux/macOS/Windows (Linux recommended for training)
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
-### Development Setup
-```bash
-# Fork and clone the repository
-git clone https://github.com/yourusername/IApred-PFN.git
-cd IApred-PFN
-
-# Create virtual environment
-python -m venv iapred_env
-source iapred_env/bin/activate  # On Windows: iapred_env\Scripts\activate
-
-# Install in development mode
-pip install -e .
-pip install -r requirements-dev.txt  # For testing and development
-```
-
-### Testing
-```bash
-# Run unit tests
-python -m pytest tests/
-
-# Run integration tests
-python -m pytest tests/integration/
-
-# Check code quality
-flake8 . --max-line-length=100
-black --check .
-```
 
 ## 📚 Citation
 
@@ -236,27 +198,6 @@ If you use IApred in your research, please cite our paper:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Training Data**: Compiled from multiple public databases and literature sources
-- **Feature Extraction**: Built upon established bioinformatics tools and methods
-- **TabPFN Implementation**: Based on the open-source TabPFN library
-- **Community**: Thanks to the bioinformatics and machine learning communities for foundational work
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/IApred-PFN/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/IApred-PFN/discussions)
-- **Email**: [Contact Information]
-
----
-
-<div align="center">
-
-**IApred: Bridging Traditional ML and Foundation Models for Antigenicity Prediction**
-
-[🚀 Quick Start](#-quick-start) • [📖 Documentation](#-repository-structure) • [🤝 Contributing](#-contributing) • [📚 Citation](#-citation)
 
 </div>
 
